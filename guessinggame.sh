@@ -6,6 +6,8 @@ function readNumber ()
     read luckynumber
 }
 #infinite loop; Loop breaks when user guess the correct number
+clear
+echo "Please guess the number of files in current folder"
 while true
 do 
     #invoke function
