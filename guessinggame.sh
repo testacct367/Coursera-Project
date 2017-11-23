@@ -5,7 +5,7 @@ function readNumber ()
     echo "Please enter the lucky number"
     read luckynumber
 }
-#infinite loop; the exit from loop is when user guess the correct number
+#infinite loop; Loop breaks when user guess the correct number
 while true
 do 
     #invoke function
